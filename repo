@@ -142,7 +142,7 @@ if __name__ == '__main__':
 REPO_URL = os.environ.get('REPO_URL', None)
 if not REPO_URL:
   REPO_URL = 'git://lxgit.wrs.com/tools/git-repo'
-REPO_REV = 'wr-10.cd-20230905'
+REPO_REV = 'WRLINUX_10_26_LTS'
 if not REPO_REV:
   REPO_REV = 'stable'
 # URL to file bug reports for repo tool issues.
